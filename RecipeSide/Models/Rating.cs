@@ -8,6 +8,7 @@ namespace RecipeSide.Models
 {
     public class Rating
     {
+       [Key]
         [Range(1, 5)]
         public int Character { get; set; }
     }

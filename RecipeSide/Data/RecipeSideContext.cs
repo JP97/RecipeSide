@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using RecipeSide.Models;
 
 namespace RecipeSide.Models
 {
@@ -14,5 +15,7 @@ namespace RecipeSide.Models
         }
 
         public DbSet<RecipeSide.Models.Ingredient> Ingredient { get; set; }
+
+        public DbSet<RecipeSide.Models.Recipe> Recipe { get; set; }
     }
 }
