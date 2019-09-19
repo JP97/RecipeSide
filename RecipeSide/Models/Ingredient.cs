@@ -7,7 +7,7 @@ namespace RecipeSide.Models
 {
     public class Ingredient
     {
-        public string NameId { get; set; }
+        public string NameID { get; set; }
         public int Amount { get; set; }
         public enum Unit
         {
