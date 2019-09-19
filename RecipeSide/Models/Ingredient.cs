@@ -9,6 +9,12 @@ namespace RecipeSide.Models
     {
         public string NameId { get; set; }
         public int Amount { get; set; }
-        public string Unit { get; set; }
+        public enum Unit
+        {
+            g = 0,
+            kg = 1,
+            dl = 2,
+            tsk = 3
+        };
     }
 }
